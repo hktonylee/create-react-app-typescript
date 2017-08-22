@@ -45,9 +45,9 @@ module.exports = function(
     eject: 'react-scripts-ts-component eject',
   };
 
-  app.appPackage.style = './dist/index.css';
-  app.appPackage.types = './dist/index.d.ts';
-  app.appPackage.main = './dist/index.js';
+  appPackage.style = './dist/index.css';
+  appPackage.types = './dist/index.d.ts';
+  appPackage.main = './dist/index.js';
 
   console.log(appPackage);
 
